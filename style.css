@@ -1,0 +1,94 @@
+.nav{
+  background:black;
+  color:white;
+  display:flex;
+  justify-content:space-evenly;
+  font-size:25px;
+  font-family: 'Expletus Sans', cursive;
+  position:fixed;
+  top:0;
+  width:100%;
+  }
+.container{
+  display:flex;
+  margin-left:10px;
+  margin-right:10px;
+  margin-top:55px;
+  padding:auto;
+  
+}
+.img{
+  background-image: url("https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Expletus Sans', cursive;
+  color:#222;
+  display:flex;
+  flex-wrap:wrap;
+  flex-grow:1;
+
+ 
+ }
+#first{ 
+  display:flex;
+  font-size:30px; 
+  position:relative;
+  top:65px;
+ }
+#second{ 
+  display:flex;
+  font-size:46px;
+  position:relative;
+  left:255px; 
+
+}
+blockquote.end {
+  background:silver;
+  height:auto;
+  font-family: 'Playball', cursive;
+  color:navy;
+  display:flex;
+  font-size:40px;
+  flex-wrap:wrap;
+  align-items:center;
+  text-align:justify;
+  float:left;
+  font-size:80px
+   }
+
+.right{
+  display:flex;
+  
+  flex-wrap:wrap;
+  margin-left:50px;
+  }
+.left{
+ display:flex;
+ }
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  color:#222;}
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  color:#222;
+}
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  color:#222;}
+
+h4 {
+  font-family: 'Quicksand', sans-serif;
+  color:#222;
+}
+blockquote.end::before {
+  content:'"' ;
+  padding:8px;
+  display:;
+  font-family: 'Playball', cursive;
+  align-items:flex-start;
+  font-size:80px;
+  
+}
+li{
+  margin:15px;
+}
