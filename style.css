@@ -1,6 +1,6 @@
 .nav{
-  background:black;
-  color:white;
+  background:rgb(17, 17, 17);
+  color:rgb(125, 96, 238);
   display:flex;
   justify-content:space-evenly;
   font-size:25px;
